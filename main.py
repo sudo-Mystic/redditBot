@@ -10,7 +10,7 @@ def main():
                          user_agent=os.environ['useragent'],
                          username=os.environ['username'],
                          password=os.environ['password'])
-    subreddit = reddit.subreddit("checkingmybot")
+    subreddit = reddit.subreddit("all")
     commands = {
         "help": show_help,
         "marketaction": marketaction,
