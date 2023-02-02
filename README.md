@@ -1,6 +1,6 @@
-# Adani-Bot
+# redditBot
 
-Adani-Bot is a Reddit bot that provides real-time market updates for Adani Group and Indian market indices. 
+redditBot is a Reddit bot that provides real-time market updates for Adani Group and Indian market indices. 
 
 ## Requirements
 
@@ -14,9 +14,10 @@ Adani-Bot is a Reddit bot that provides real-time market updates for Adani Group
 ```git clone https://github.com/sudo-Mystic/redditBot.git```
 2. Create a virtual environment and activate it
 ```python3 -m venv env
-source env/bin/activate```
+source env/bin/activate ```
 3. Install the required packages
 ```pip install -r requirements.txt```
+
 4. Create a Reddit app and obtain the following values:
   - client_id
   - client_secret
@@ -24,6 +25,7 @@ source env/bin/activate```
   - username
   - password
 5. Store the values in environment variables as follows:
+
 ```export clientid='your_client_id'
 export clientsecret='your_client_secret'
 export useragent='your_user_agent'
@@ -34,7 +36,6 @@ export password='your_password'```
 
 1. Navigate to the cloned repository
 ```cd redditBot
-
 ```
 2. Run the bot
 ```python bot.py```
