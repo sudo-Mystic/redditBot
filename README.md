@@ -38,7 +38,7 @@ redditBot is a Reddit bot that provides real-time market updates for Adani Group
 ```cd redditBot
 ```
 2. Run the bot
-```python bot.py```
+```python main.py```
 
 ## Commands
 - `!adani help` - Display the list of available commands
