@@ -13,8 +13,8 @@ redditBot is a Reddit bot that provides real-time market updates for Adani Group
 1. Clone the repository 
 ```git clone https://github.com/sudo-Mystic/redditBot.git```
 2. Create a virtual environment and activate it
-```python3 -m venv env
-source env/bin/activate ```
+```python3 -m venv env```
+```source env/bin/activate ```
 3. Install the required packages
 ```pip install -r requirements.txt```
 
@@ -26,11 +26,11 @@ source env/bin/activate ```
   - password
 5. Store the values in environment variables as follows:
 
-```export clientid='your_client_id'
-export clientsecret='your_client_secret'
-export useragent='your_user_agent'
-export username='your_username'
-export password='your_password'```
+```export clientid='your_client_id'```
+```export clientsecret='your_client_secret'```
+```export useragent='your_user_agent'```
+```export username='your_username'```
+```export password='your_password'```
 
 ## Usage
 
